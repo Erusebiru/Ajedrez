@@ -1,0 +1,32 @@
+#tablero{
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+}
+.negro{
+	background-color: black;
+}
+.blanco{
+	background-color: #C2C228;
+}
+
+.celda{
+	border: 1px solid black;
+	height: 75px;
+	width: 75px;
+	text-align: center;
+	font-size: 18px;
+}
+.celdaInfo{
+	height: 50px;
+	width: 50px;
+	text-align: center;
+}
+
+[color='negras']{
+	color: red;
+}
+
+[color='blancas']{
+	color: white;
+}
